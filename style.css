@@ -1,6 +1,17 @@
-header{
-    height: 10%;
+*{
+    padding: 0;
+    margin: 0 auto;
 }
+
+
+body{
+    width: 80%
+}
+
+header{
+    padding: 10px;
+}
+
 header img{
-    image-resolution: 500px;
+    width: 200px;
 }
