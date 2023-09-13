@@ -6,6 +6,12 @@
 
 body{
     width: 80%;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 header{
@@ -14,4 +20,14 @@ header{
 
 header img{
     width: 200px;
+    
+}
+.gridbox{
+    border: solid black;
+    border-radius: 20px;
+    min-height: 200px;
+    background-color: #fccc14;
+    padding: 10px;
+    margin: 10px;
+    grid-column: span 2;
 }
